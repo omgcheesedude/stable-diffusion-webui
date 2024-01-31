@@ -1,0 +1,1731 @@
+[33mcommit cf2772fab0af5573da775e7437e6acdca424f26e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v1.7.0[m[33m, [m[1;31morigin/release_candidate[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 4afaaf8a 0dfffe53
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 16 09:58:07 2023 +0300
+
+    Merge branch 'release_candidate'
+
+[33mcommit 0dfffe53ec11b2ee097d55efc479f8e707015db9[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 16 09:25:08 2023 +0300
+
+    Merge pull request #14307 from AUTOMATIC1111/default-Falst-js_live_preview_in_modal_lightbox
+    
+    default False js_live_preview_in_modal_lightbox
+
+[33mcommit 2be85f8fe03533bf3b1ad562ea58ee8227ba3b99[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 10:08:03 2023 +0300
+
+    Merge pull request #14237 from ReneKroon/dev
+    
+    #13354 : solve lora loading issue
+
+[33mcommit eb52c803b849cdd1fc137db4568eca5bb8373f58[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 10:03:14 2023 +0300
+
+    Merge pull request #14216 from wfjsw/state-dict-ref-comparison
+    
+    change state dict comparison to ref compare
+
+[33mcommit f8871dedcfe3a67689ef333aea2fdf05a9aaffa2[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 09:59:48 2023 +0300
+
+    Merge pull request #14230 from AUTOMATIC1111/add-option-Live-preview-in-full-page-image-viewer
+    
+    add option: Live preview in full page image viewer
+
+[33mcommit b7e0d4a7e171ee1cef73684b8423fe4a20ca7e34[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 09:52:23 2023 +0300
+
+    Merge pull request #14229 from Nuullll/ipex-embedding
+    
+    [IPEX] Fix embedding and ControlNet
+
+[33mcommit 5cb1ce470df8332872af3dfa1067b761062d4608[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 09:48:36 2023 +0300
+
+    Merge pull request #14266 from kaalibro/dev
+    
+    Re-add setting lost as part of e294e46
+
+[33mcommit 888b928f0da7da4a2dfa4519e95ac17a3e5562f7[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 09:48:14 2023 +0300
+
+    Merge pull request #14276 from AUTOMATIC1111/fix-styles
+    
+    Fix styles
+
+[33mcommit b55f09c4e13c082590bc64cd792a0b7bd46c1c0d[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 09:46:05 2023 +0300
+
+    Merge pull request #14270 from kaalibro/extra-options-elem-id
+    
+    Assign id for "extra_options". Replace numeric field with slider.
+
+[33mcommit c7cd9b441d9061f33b7b88be519fb4c6e5b8bc1e[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 09:41:18 2023 +0300
+
+    Merge pull request #14296 from akx/paste-resolution
+    
+    Allow pasting in WIDTHxHEIGHT strings into the width/height fields
+
+[33mcommit 6ef0ff39f2a35a02e5380e522e1dff3eafd7ccfc[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Thu Dec 14 09:39:57 2023 +0300
+
+    Merge pull request #14300 from AUTOMATIC1111/oft_fixes
+    
+    Fix wrong implementation in network_oft
+
+[33mcommit 120a84bd2f01ec4489bd12bd68f319798ef30782[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Tue Dec 5 07:15:39 2023 +0300
+
+    Merge pull request #14203 from AUTOMATIC1111/remove-clean_text()
+    
+    remove clean_text()
+
+[33mcommit 368d66c9ccca0270cc64d6a64d22bfa562f28361[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Dec 4 15:56:03 2023 +0300
+
+    add hypertile infotext
+
+[33mcommit 81105ee0135f1c475920bf44d3a04fc181aed29e[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Dec 4 13:11:00 2023 +0300
+
+    repair old handler for postprocessing API in a way that doesn't break interface
+
+[33mcommit 24dae9bc4cc03a30236957d9c35d37aed79f6f5d[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Dec 4 12:36:41 2023 +0300
+
+    repair old handler for postprocessing API
+
+[33mcommit 48fae7ccdc2fe2d2ba8e8cfcb17b56028734e570[m[33m ([m[1;33mtag: v1.7.0-RC[m[33m)[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Dec 4 09:35:52 2023 +0300
+
+    update changelog
+
+[33mcommit 9e1f3feb12a7cfe4fd426dd3df5431c805746ecc[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Dec 4 09:15:19 2023 +0300
+
+    make webui not crash when running with --disable-all-extensions option
+
+[33mcommit 208760f348c715aaa93f6aaffe7dba967f612d2d[m
+Merge: 334298d4 06725af4
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Dec 4 08:14:40 2023 +0300
+
+    Merge pull request #14192 from illtellyoulater/patch-1
+    
+    Update launch_utils.py - fixes repetead package reinstalls
+
+[33mcommit 06725af40b94a146c56e693a47cbec6d0af55396[m
+Author: missionfloyd <missionfloyd@users.noreply.github.com>
+Date:   Sun Dec 3 21:26:12 2023 -0700
+
+    Lint
+
+[33mcommit 639ccf254bd4d072f33333abb1ada3d08aaab470[m
+Author: illtellyoulater <3078931+illtellyoulater@users.noreply.github.com>
+Date:   Mon Dec 4 02:35:35 2023 +0000
+
+    Update launch_utils.py to fix wrong dep. checks and reinstalls
+    
+    Fixes failing dependency checks for extensions having a different package name and import name (for example ffmpeg-python / ffmpeg), which currently is causing the unneeded reinstall of packages at runtime.
+    
+    In fact with current code, the same string is used when installing a package and when checking for its presence, as you can see in the following example:
+    
+    > launch_utils.run_pip("install ffmpeg-python", "required package")
+    [ Installing required package: "ffmpeg-python" ... ]
+    [ Installed ]
+    
+    > launch_utils.is_installed("ffmpeg-python")
+    False
+    
+    ... which would actually return true with:
+    
+    > launch_utils.is_installed("ffmpeg")
+    True
+
+[33mcommit 334298d47326686e5640b12b2b17e8897dacac8d[m
+Merge: 2d5507fc d92ce145
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Dec 3 19:58:53 2023 +0300
+
+    Merge pull request #14186 from akx/torchvision-basicsr-hack
+    
+    Add import_hook hack to work around basicsr/torchvision incompatibility
+
+[33mcommit 2d5507fce5fa088053fbe5bacaf458397845660c[m
+Merge: b4776ea3 d3fdc4af
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Dec 3 19:58:14 2023 +0300
+
+    Merge pull request #14181 from AUTOMATIC1111/rework-mask-and-mask_composite-logic
+    
+    slight optimization for mask and mask_composite
+
+[33mcommit d92ce145bba714c5b257b9853aa22681233651b8[m
+Author: Aarni Koskela <akx@iki.fi>
+Date:   Sun Dec 3 16:50:20 2023 +0200
+
+    Add import_hook hack to work around basicsr incompatibility
+    
+    Fixes #13985
+
+[33mcommit d3fdc4af61b7560eede52290e1ede48185680089[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Sun Dec 3 18:22:00 2023 +0900
+
+    rework mask and mask_composite logic
+
+[33mcommit b4776ea3a236c07041940ba78a50e25bc5c9a06f[m
+Merge: fed5b1d5 83e8c322
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Dec 3 11:57:14 2023 +0300
+
+    Merge pull request #14177 from catboxanon/fix/mask-composite-save
+    
+    Fix `save_samples` being checked early when saving masked composite
+
+[33mcommit fed5b1d55cb03bb2bb5a5d19dfae0fd2644137bb[m
+Merge: ac02216e 9528d66c
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Dec 3 06:33:16 2023 +0300
+
+    Merge pull request #14178 from catboxanon/fix/missing-setting-v1
+    
+    Re-add `keyedit_delimiters_whitespace` setting lost as part of commit e294e46
+
+[33mcommit 9528d66c9479d02c83b8db6107f6b0cb741612dc[m
+Author: catboxanon <122327233+catboxanon@users.noreply.github.com>
+Date:   Sat Dec 2 14:56:26 2023 -0500
+
+    Re-add setting lost as part of e294e46
+
+[33mcommit 83e8c322762c545fd589c060811379582926060f[m
+Author: catboxanon <122327233+catboxanon@users.noreply.github.com>
+Date:   Sat Dec 2 13:30:53 2023 -0500
+
+    Fix `save_samples` being checked early when saving masked composite
+
+[33mcommit ac02216e540cd581f9169c6c791e55721e3117b0[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 19:35:47 2023 +0300
+
+    alternate implementation for unet forward replacement that does not depend on hijack being applied
+
+[33mcommit af5f0734c9b0dc26934292849b7df006a598bd80[m
+Merge: a5f61aa8 96871e4f
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 19:22:32 2023 +0300
+
+    Merge pull request #14171 from Nuullll/ipex
+    
+    Initial IPEX support for Intel Arc GPU
+
+[33mcommit a5f61aa8c5933d8e5a0e0aa841138eeaccd86d62[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 18:03:34 2023 +0300
+
+    potential fix for #14172
+
+[33mcommit 11d23e8ca55c097ecfa255a05b63f194e25f08be[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 18:01:11 2023 +0300
+
+    remove Train/Preprocessing tab and put all its functionality into extras batch images mode
+
+[33mcommit 96871e4f744471177d97e01c49f8587d7f67c125[m
+Author: Nuullll <vfirst218@gmail.com>
+Date:   Sat Dec 2 17:11:11 2023 +0800
+
+    Remove webui-ipex-user.bat
+
+[33mcommit 4a666381bf98333ba4512db0f0033df5f6a08771[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 12:11:21 2023 +0300
+
+    extras tab batch: actually use original filename
+    preprocessing upscale: do not do an extra upscale step if it's not needed
+
+[33mcommit 87cd07b3af74c447b02570bf3963ba83ade2e203[m
+Author: Nuullll <vfirst218@gmail.com>
+Date:   Sat Dec 2 15:54:25 2023 +0800
+
+    Fix fp64
+
+[33mcommit 0bb6e00ba3c6775b17b3449c454c6efabb1bdad1[m
+Merge: 87d973e3 314ae153
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:59:29 2023 +0300
+
+    Merge pull request #13957 from h43lb1t0/extra_network_subdirs
+    
+    dir buttons start with / so only the correct dir will be shown and no…
+
+[33mcommit 87d973e389b5a0415430fecc1046415cd575f1d4[m
+Merge: ef6b8123 1f6844eb
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:58:44 2023 +0300
+
+    Merge pull request #14063 from wfjsw/use-ext-name-for-installed
+    
+    use extension name for determining an extension is installed in the index
+
+[33mcommit ef6b8123dc57e4e4bd5e08d9f3e3dbdfdf6b4c4a[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:57:39 2023 +0300
+
+    put code that can cause an exception into its own function for #14120
+
+[33mcommit 5ed7daa3d94ddb9bf241ea88b423a645236c5203[m
+Merge: ef1723ef 8a6e4bda
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:54:21 2023 +0300
+
+    Merge pull request #14120 from AUTOMATIC1111/protect-against-bad-ui-creation-scripts
+    
+    catch uncaught exception with ui creation scripts
+
+[33mcommit ef1723ef41f90f615f5b5def651db3a683452157[m
+Merge: 7547d7c7 0cd5b0ed
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:53:27 2023 +0300
+
+    Merge pull request #14125 from cjj1977/dev
+    
+    Allow use of mutiple styles csv files
+
+[33mcommit 7547d7c7910ac8cd4eb0b1543a7f408ed0947dbe[m
+Merge: 88736b55 ec78354e
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:48:40 2023 +0300
+
+    Merge pull request #14126 from aria1th/hypertile-xyz
+    
+    Support XYZ scripts / split hires path from unet
+
+[33mcommit 88736b5557a64f47dec36057acc0f97f9b89f2dc[m
+Merge: 9eadc4f1 3cd6e1d0
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:46:19 2023 +0300
+
+    Merge pull request #14131 from read-0nly/patch-1
+    
+    Update devices.py - Make 'use-cpu all' actually apply to 'all'
+
+[33mcommit 9eadc4f146daf9a43290e0f469c22dd5549572a3[m
+Merge: 97c8e7e0 d608926f
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:46:00 2023 +0300
+
+    Merge pull request #14121 from AUTOMATIC1111/fix-Auto-focal-point-crop-for-opencv-4.8.x
+    
+    Fix auto focal point crop for opencv >= 4.8
+
+[33mcommit 97c8e7e0c701e0c62ebfc3e2c1f069aa4bc129dd[m
+Merge: e12a26c2 b30cc87b
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:45:03 2023 +0300
+
+    Merge pull request #14119 from AUTOMATIC1111/add-Block-component-creation-callback
+    
+    add Block component creation callback
+
+[33mcommit e12a26c25358ccb76825e33ab0242ff262fceb1b[m
+Merge: 600036d1 81c00728
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:44:00 2023 +0300
+
+    Merge pull request #14046 from hidenorly/AddFP32FallbackSupportOnSdVaeApprox
+    
+    Add FP32 fallback support on sd_vae_approx
+
+[33mcommit 600036d158e45c688fc99dcbbb6792d00094f6d6[m
+Merge: 41255527 01c8f180
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:30:27 2023 +0300
+
+    Merge pull request #14156 from AUTOMATIC1111/metadata-pop-up-size-limit
+    
+    fix not able to exit metadata popup when pop up is too big
+
+[33mcommit 41255527529f15a8cb95e3ccd6e6024273411c65[m
+Merge: e294e46d 6080045b
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:30:07 2023 +0300
+
+    Merge pull request #14170 from MrCheeze/sd-turbo
+    
+    Add support for SD 2.1 Turbo
+
+[33mcommit e294e46d46a814457fc77af13c17128bd6075d45[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 09:26:38 2023 +0300
+
+    split UI settings page into many
+
+[33mcommit 7499148ad4dbd3444215c843d02453f68c459707[m
+Author: Nuullll <vfirst218@gmail.com>
+Date:   Sat Dec 2 14:00:46 2023 +0800
+
+    Disable ipex autocast due to its bad perf
+
+[33mcommit b58d061e41cba6fb91910d310d53e175d0511650[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Dec 2 08:33:28 2023 +0300
+
+    infotext updates: add option to disregard certain infotext fields, add option to not include VAE in infotext, add explanation to infotext settings page, move some options to infotext settings page
+
+[33mcommit 6080045b2a0964e63bdcd33dd26015f8a51411f6[m
+Author: MrCheeze <fishycheeze@yahoo.ca>
+Date:   Fri Dec 1 22:58:05 2023 -0500
+
+    Add support for SD 2.1 Turbo, by converting the state dict from SGM to LDM on load
+
+[33mcommit 293f44e6c1de7bbf744a4236db81ac4559bdb82a[m
+Author: MrCheeze <fishycheeze@yahoo.ca>
+Date:   Fri Dec 1 22:56:08 2023 -0500
+
+    Fix bug where is_using_v_parameterization_for_sd2 fails because the sd_hijack is only partially undone
+
+[33mcommit 01c8f1803a77c63b2ebfd3cbbd41659fb914f274[m
+Author: missionfloyd <missionfloyd@users.noreply.github.com>
+Date:   Thu Nov 30 22:36:12 2023 -0700
+
+    Close popups with escape key
+
+[33mcommit c2ed4132037a32cda856e8ba6e2cda32b44b9784[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Fri Dec 1 02:59:41 2023 +0900
+
+    add max-heigh/width to global-popup-inner
+    
+    prevent the pop-up from being too big as to making exiting the pop-up impossible
+
+[33mcommit 8b40f475a31109cc6ecbdc0d14a0cee9e0303291[m
+Author: Nuullll <vfirst218@gmail.com>
+Date:   Fri Nov 10 11:06:26 2023 +0800
+
+    Initial IPEX support
+
+[33mcommit 81c00728b8ec0b6c0e70ea10c7687aad065a95cb[m
+Author: hidenorly <twitte.harold@gmail.com>
+Date:   Wed Nov 29 04:59:35 2023 +0900
+
+    Fix the Ruff error about unused import
+
+[33mcommit a0096c58977c01ddc6a2b83a8a7b64da6fd4a51e[m
+Author: hidenorly <twitte.harold@gmail.com>
+Date:   Wed Nov 29 04:45:04 2023 +0900
+
+    Add FP32 fallback support on torch.nn.functional.interpolate
+    
+    This tries to execute interpolate with FP32 if it failed.
+    
+    Background is that
+    on some environment such as Mx chip MacOS devices, we get error as follows:
+    
+    ```
+    "torch/nn/functional.py", line 3931, in interpolate
+            return torch._C._nn.upsample_nearest2d(input, output_size, scale_factors)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        RuntimeError: "upsample_nearest2d_channels_last" not implemented for 'Half'
+    ```
+    
+    In this case, ```--no-half``` doesn't help to solve. Therefore this commits add the FP32 fallback execution to solve it.
+    
+    Note that the ```upsample_nearest2d``` is called from ```torch.nn.functional.interpolate```.
+    And the fallback for torch.nn.functional.interpolate is necessary at
+    ```modules/sd_vae_approx.py``` 's ```VAEApprox.forward```
+    ```repositories/stable-diffusion-stability-ai/ldm/modules/diffusionmodules/openaimodel.py``` 's ```Upsample.forward```
+
+[33mcommit 39eae9f009c8302eed77b0942e1e634f6125d53e[m
+Author: hidenorly <twitte.harold@gmail.com>
+Date:   Wed Nov 29 04:07:48 2023 +0900
+
+    Revert "Add FP32 fallback support on sd_vae_approx"
+    
+    This reverts commit 58c19545c83fa6925c9ce2216ee64964eb5129ce.
+    Since the modification is expected to move to mac_specific.py
+    (https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/14046#issuecomment-1826731532)
+
+[33mcommit d608926f817b279d16b39a7875beec80d010a988[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Tue Nov 28 12:12:27 2023 +0900
+
+    reformat file with uniform indentation
+
+[33mcommit 03ee297aa22296ea12b965fc1cb11aa46375d372[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Mon Nov 27 17:26:16 2023 +0900
+
+    fix Auto focal point crop for opencv >= 4.8.x
+    
+    autocrop.download_and_cache_models
+    in opencv >= 4.8 the face detection model was updated
+    download the base on opencv version
+    returns the model path or raise exception
+
+[33mcommit 3cd6e1d0a0877e6f1ac931c8253e6eee09da3805[m
+Author: obsol <33932119+read-0nly@users.noreply.github.com>
+Date:   Mon Nov 27 19:21:43 2023 -0500
+
+    Update devices.py
+    
+    fixes issue where "--use-cpu" all properly makes SD run on CPU but leaves ControlNet (and other extensions, I presume) pointed at GPU, causing a crash in ControlNet caused by a mismatch between devices between SD and CN
+    
+    https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/14097
+
+[33mcommit ec78354efa179b64e92d6b98d781f6572b4eb084[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Mon Nov 27 22:25:28 2023 +0900
+
+    hypertile_xyz: we don't need isnumeric check for AxisOption
+
+[33mcommit 524d6a4dbae68bf557d9c5fe686707d96841e0b5[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Mon Nov 27 22:13:18 2023 +0900
+
+    fix ruff - set comprehension
+
+[33mcommit f207eb7a0d8b4443dbe665df99c31f8ff91660fd[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Mon Nov 27 22:11:28 2023 +0900
+
+    fix ruff in hypertile_xyz.py
+
+[33mcommit 601a7b4ce5b28efd29b1668c7b8b74fb6b62f6f3[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Mon Nov 27 22:10:31 2023 +0900
+
+    cache divisors / fix ruff
+
+[33mcommit 0cd5b0ed541db496ecb5042d1340303a182fce7b[m
+Merge: 26a0c295 a75314b4
+Author: Charlie Joynt <cjj1977@users.noreply.github.com>
+Date:   Mon Nov 27 12:11:06 2023 +0000
+
+    Merge branch 'dev' of https://github.com/cjj1977/stable-diffusion-webui into dev
+
+[33mcommit 23c36f59b4a423362d74f1ca2cc69871ae101e0e[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Mon Nov 27 21:10:26 2023 +0900
+
+    Support XYZ scripts / split hires path from unet
+
+[33mcommit 26a0c29587da428d27fd3e6a95491776ef66bbdd[m
+Author: Charlie Joynt <cjj1977@users.noreply.github.com>
+Date:   Mon Nov 27 11:39:50 2023 +0000
+
+    Allow use of mutiple styles csv files
+    * https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/14122
+    Fix edge case where style text has multiple {prompt} placeholders
+    * https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/14005
+
+[33mcommit a75314b41f938d1e598916ecdd0f14126ae1876b[m
+Author: MisterSeajay <cjj1977@users.noreply.github.com>
+Date:   Mon Nov 27 12:03:42 2023 +0000
+
+    bugfix for warning message (#6)
+    
+    * bugfix for warning message
+    
+    * bugfix error message
+
+[33mcommit 1c64bb71402c2cd62ac98f936203437f0c4fcd02[m
+Author: MisterSeajay <cjj1977@users.noreply.github.com>
+Date:   Mon Nov 27 11:57:27 2023 +0000
+
+    bugfix for warning message (#6)
+
+[33mcommit 9621ca4d64bbe59880d869b923e1572f1475a52b[m
+Author: Charlie Joynt <cjj1977@users.noreply.github.com>
+Date:   Mon Nov 27 11:39:50 2023 +0000
+
+    Allow use of mutiple styles csv files
+
+[33mcommit 8a6e4bda21dddef3ab2e70a05d71b587b6c8b04b[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Mon Nov 27 14:00:17 2023 +0900
+
+    catch uncaught exception with ui creation scripts
+    
+    prevent total webui crash
+
+[33mcommit b30cc87b786d32f2385cfecf40a2469ee3a96ab5[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Mon Nov 27 13:15:17 2023 +0900
+
+    add Block component creation callback
+
+[33mcommit 1f6844eb7e3a91639b2977d1e0cfbb9bf98baea7[m
+Author: Jabasukuriputo Wang <wfjsw@users.noreply.github.com>
+Date:   Sun Nov 26 10:04:39 2023 -0600
+
+    also consider extension url
+
+[33mcommit f0f100e67b78f686dc73cf3c8cad422e45cc9b8a[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 17:56:16 2023 +0300
+
+    add categories to settings
+
+[33mcommit 500de919edd2ab1de62546b0d16be72ffaec0c4e[m
+Merge: 2a40d3c6 a15dd151
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 16:15:56 2023 +0300
+
+    Merge pull request #14108 from AUTOMATIC1111/json.dump(ensure_ascii=False)
+    
+    json.dump(ensure_ascii=False)
+
+[33mcommit a15dd151ffb4d11556028b34561058bc44930427[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Sun Nov 26 21:55:50 2023 +0900
+
+    json.dump(ensure_ascii=False)
+    
+    improve json readability
+
+[33mcommit 2a40d3c603448d15e209814366f2d6ab25e52398[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 14:58:47 2023 +0300
+
+    compact prompt layout: preserve scroll when switching between lora tabs
+
+[33mcommit e44103264d95a2141410571661c757a65f22a8b6[m
+Merge: 6955c210 6a86b3ad
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 11:57:13 2023 +0300
+
+    Merge pull request #13936 from cabelo/compatibility
+    
+    Compatibility
+
+[33mcommit 6955c210b7791375e945e876223e6cf6b2231391[m
+Merge: d1750e5e 066afda2
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 11:54:36 2023 +0300
+
+    Merge pull request #14059 from akx/upruff
+    
+    Update Ruff to 0.1.6
+
+[33mcommit d1750e5eca6fd95db3516928cad18b32e557f56f[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 11:37:12 2023 +0300
+
+    fix linter errors
+
+[33mcommit c5a0c59a83c950c64bc44427d3478aaa78c296cf[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 11:36:17 2023 +0300
+
+    do not save HTML explanations from options page to config
+
+[33mcommit f7f015e84b8146fae1659e8f8c2eafcf69063e2f[m
+Merge: f85b7476 5cedc8f9
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 11:29:27 2023 +0300
+
+    Merge pull request #14084 from wfjsw/move-from-sysinfo-to-errors
+    
+    Move exception_records related methods to errors.py
+
+[33mcommit f85b74763d4501542d8ea80e99db4111d39b4776[m
+Merge: fd8674a4 d2e0c1ca
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 11:18:49 2023 +0300
+
+    Merge branch 'hypertile-in-sample' into dev
+
+[33mcommit fd8674a4bcdde86854e019ec74aa3112191dfd26[m
+Merge: 8aa51f68 97431f29
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 11:18:25 2023 +0300
+
+    Merge pull request #13948 from aria1th/hypertile-in-sample
+    
+    support HyperTile optimization
+
+[33mcommit d2e0c1ca132f4f0d98b77397a9f353d4ad8e7c4b[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 10:51:45 2023 +0300
+
+    rework hypertile into a built-in extension
+
+[33mcommit 3a9bf4ac10d99feb81b0e637417a108d3fa5ac06[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 26 08:29:12 2023 +0300
+
+    move file
+
+[33mcommit 5cedc8f9b2b51f392e7c8f5e29286466e3bee8d6[m
+Author: Jabasukuriputo Wang <wfjsw@users.noreply.github.com>
+Date:   Fri Nov 24 11:30:30 2023 -0600
+
+    remove traceback in sysinfo
+
+[33mcommit 86b99b1e98fcdd6e7e5f6017071944364e01e6ad[m
+Author: Jabasukuriputo Wang <wfjsw@users.noreply.github.com>
+Date:   Fri Nov 24 11:28:54 2023 -0600
+
+    Move exception_records related methods to errors.py
+
+[33mcommit ac2a981c4f30d77cdb674948fe0e2aa7264a93e1[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Wed Nov 22 22:40:24 2023 -0600
+
+    use extension name for determining an extension is installed in the index
+
+[33mcommit 066afda2f6f650fe108d285a239d08d59d92590d[m
+Author: Aarni Koskela <akx@iki.fi>
+Date:   Wed Nov 22 18:02:39 2023 +0200
+
+    Simplify restart_sampler (suggested by ruff)
+
+[33mcommit 8fe1e195228162a4510925de05015f361efa1087[m
+Author: Aarni Koskela <akx@iki.fi>
+Date:   Wed Nov 22 18:01:34 2023 +0200
+
+    Update ruff to 0.1.6
+
+[33mcommit 8aa51f682c17d85f4585b9471860224568d25e95[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Tue Nov 21 08:32:00 2023 +0300
+
+    fix  [Bug]: (Dev Branch) Placing "Dimensions" first in "ui_reorder_list" prevents start #14047
+
+[33mcommit 58c19545c83fa6925c9ce2216ee64964eb5129ce[m
+Author: hidenorly <twitte.harold@gmail.com>
+Date:   Tue Nov 21 01:13:53 2023 +0900
+
+    Add FP32 fallback support on sd_vae_approx
+    
+    This tries to execute interpolate with FP32 if it failed.
+    
+    Background is that
+    on some environment such as Mx chip MacOS devices, we get error as follows:
+    
+    ```
+    "torch/nn/functional.py", line 3931, in interpolate
+            return torch._C._nn.upsample_nearest2d(input, output_size, scale_factors)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        RuntimeError: "upsample_nearest2d_channels_last" not implemented for 'Half'
+    ```
+    
+    In this case, ```--no-half``` doesn't help to solve. Therefore this commits add the FP32 fallback execution to solve it.
+    
+    Note that the submodule may require additional modifications. The following is the example modification on the other submodule.
+    
+    ```repositories/stable-diffusion-stability-ai/ldm/modules/diffusionmodules/openaimodel.py
+    
+    class Upsample(nn.Module):
+    ..snip..
+        def forward(self, x):
+            assert x.shape[1] == self.channels
+            if self.dims == 3:
+                x = F.interpolate(
+                    x, (x.shape[2], x.shape[3] * 2, x.shape[4] * 2), mode="nearest"
+                )
+            else:
+                try:
+                    x = F.interpolate(x, scale_factor=2, mode="nearest")
+                except:
+                    x = F.interpolate(x.to(th.float32), scale_factor=2, mode="nearest").to(x.dtype)
+            if self.use_conv:
+                x = self.conv(x)
+            return x
+    ..snip..
+    ```
+    
+    You can see the FP32 fallback execution as same as sd_vae_approx.py.
+
+[33mcommit 314ae1535ea172fcdb0f5b3b2eecc5d4ce9112b5[m
+Author: Tom Haelbich <haelbito@outlook.com>
+Date:   Mon Nov 20 16:19:54 2023 +0100
+
+    added option for default behavior of dir buttons
+
+[33mcommit 5f36f6ab21228235021c2441a404f7d297ef6737[m
+Merge: 1463cea9 dea5e43c
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Nov 20 17:44:58 2023 +0300
+
+    Merge pull request #14009 from AUTOMATIC1111/Option-to-show-batch-img2img-results-in-UI
+    
+    Option to show batch img2img results in UI
+
+[33mcommit 1463cea9493cd04a4382720f88f568d8286fc48d[m
+Merge: 73a0b4bb 9b471436
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Nov 20 14:50:01 2023 +0300
+
+    Merge branch 'dag' into dev
+
+[33mcommit 73a0b4bba6a533966c58724e31bc0b2b49e9e041[m
+Merge: 411da7c2 bde439ef
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Nov 20 14:49:46 2023 +0300
+
+    Merge pull request #13944 from wfjsw/dag
+    
+    implementing script metadata and DAG sorting mechanism
+
+[33mcommit 9b471436b2226458a767077707ea102e331b5d78[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Nov 20 14:47:09 2023 +0300
+
+    rework extensions metadata: use custom sorter that doesn't mess the order as much and ignores cyclic errors, use classes with named fields instead of dictionaries, eliminate some duplicated code
+
+[33mcommit 411da7c281703fd61fbac715d0ed90b67a085ea8[m
+Merge: fc83af44 6d337bf2
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Nov 20 08:56:45 2023 +0300
+
+    Merge pull request #14035 from AUTOMATIC1111/sysinfo-json
+    
+    save sysinfo as .json
+
+[33mcommit 6d337bf23dae990e7b6717da4d5f2e54f212685c[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Mon Nov 20 01:38:31 2023 +0900
+
+    save sysinfo as .json
+    
+    GitHub now allows uploading of .json files in issues
+
+[33mcommit dea5e43c8359b663d5599efc99278c258747db61[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Sat Nov 18 04:23:03 2023 +0900
+
+    Option to show batch img2img results in UI
+    
+    shared.opts.img2img_batch_show_results_limit
+    limit the number of images return to the UI for batch img2img
+    default limit 32
+    0 no images are shown
+    -1 unlimited, all images are shown
+
+[33mcommit bde439ef67776be126d6a8c569a23d54dbc3e707[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Sun Nov 19 00:58:47 2023 -0600
+
+    use metadata.ini for meta filename
+
+[33mcommit fc83af443265d8938cf778143aefec1129d95c42[m
+Merge: 337bc4a2 7ff54005
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 09:11:49 2023 +0300
+
+    Merge pull request #13931 from AUTOMATIC1111/style-hotkeys
+    
+    Enable prompt hotkeys in style editor
+
+[33mcommit 337bc4a2fba577d858dfa266860f08ba37ec3039[m
+Merge: 6fac65f3 74b80e72
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 09:09:21 2023 +0300
+
+    Merge pull request #13014 from AUTOMATIC1111/thread-safe-extranetworks-list_items
+    
+    thread safe extra network list_items
+
+[33mcommit 6fac65f33424693d549cddf08c5b3ee5f8413747[m
+Merge: 5a031d92 6d77a6e1
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 09:01:39 2023 +0300
+
+    Merge pull request #13929 from kingljl/fix-dependency-address-patch-1
+    
+    Fix dependency address patch 1
+
+[33mcommit 5a031d9233cd78d9b7d9935dc26e07820f53e22e[m
+Merge: e4e875ff 94e96695
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 09:01:11 2023 +0300
+
+    Merge pull request #13962 from kaalibro/dev
+    
+    Fixes generation restart not working for some users when 'Ctrl+Enter' is pressed
+
+[33mcommit e4e875fffeb17fd757cc6ff0b1cc0c1d85aad637[m
+Merge: b945ba71 c1c81600
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 09:00:05 2023 +0300
+
+    Merge pull request #13968 from kaalibro/extranetworks-path-sorting
+    
+    Adds 'Path' sorting for Extra network cards
+
+[33mcommit b945ba716b88af32dff853ecaad4f5a05c164ce8[m
+Merge: 2207ef36 a292d2c4
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 08:59:32 2023 +0300
+
+    Merge pull request #13977 from AUTOMATIC1111/hotfix-postprocessing-state-end
+    
+    Hotfix: call shared.state.end() after postprocessing done
+
+[33mcommit 2207ef363aa96977d0c75d846b348132f721087c[m
+Merge: 3a13b0e7 eb667e71
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 08:59:09 2023 +0300
+
+    Merge pull request #13692 from v0xie/network-oft
+    
+    Support inference with OFT networks
+
+[33mcommit 3a13b0e762bf4434c6ca4e279a15c9d516b54417[m
+Merge: 6429c3db 7021cdb1
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 08:57:14 2023 +0300
+
+    Merge pull request #13996 from Luxter77/patch-1
+    
+    Adds tqdm handler to logging_config.py for progress bar integration
+
+[33mcommit 6429c3db11020bb399d240f63309261e3d2ab028[m
+Merge: 5a9dc1c0 3a4a6c43
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 08:42:58 2023 +0300
+
+    Merge pull request #13826 from ezxzeng/ui_mobile_optimizations
+    
+    added accordion settings options
+
+[33mcommit 5a9dc1c0ca9c12b8609790b05b738242bfb1c078[m
+Merge: 5e80d9ee 4f2a4a36
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 19 08:40:29 2023 +0300
+
+    Merge pull request #14004 from storyicon/master
+    
+    feat: fix randn found element of type float at pos 2
+
+[33mcommit 4f2a4a361511ca3b8cdd7373f6c7d723583e8fdb[m
+Author: storyicon <storyicon@foxmail.com>
+Date:   Fri Nov 17 09:48:18 2023 +0000
+
+    feat: fix randn found element of type float at pos 2
+    
+    Signed-off-by: storyicon <storyicon@foxmail.com>
+
+[33mcommit 97431f29feb17ffc96ca95e9b3efec87be9d8b3a[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Fri Nov 17 10:05:28 2023 +0900
+
+    fix double gc and decoding with unet context
+
+[33mcommit ffd0f8ddc309688636ac1ac10d82b72ab6b466bf[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Fri Nov 17 09:54:33 2023 +0900
+
+    set empty value for SD XL 3rd layer
+
+[33mcommit c0725ba2d098a6a78610e7d96ee75f63a32d4e52[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Fri Nov 17 09:34:50 2023 +0900
+
+    Fix inverted option issue
+    
+    I'm pretty sure I was sleepy while implementing this
+
+[33mcommit c40be2252ab1c8c289562db208c5ac6618bd8545[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Fri Nov 17 09:22:27 2023 +0900
+
+    Fix critical issue - unet apply
+
+[33mcommit 7021cdb1de12be3071ecb67aa8d2e34e7a0ec5ab[m
+Author: Your Name <you@example.com>
+Date:   Thu Nov 16 17:53:57 2023 -0300
+
+    actually adds handler to logging_config.py
+
+[33mcommit cdb60a690dcd35e865eb0caef6c6d8ff64e1b0d5[m
+Author: Lucas Daniel Velazquez M <19197331+Luxter77@users.noreply.github.com>
+Date:   Thu Nov 16 16:43:59 2023 -0300
+
+    Take into account tqdm not being installed before first boot for logging
+
+[33mcommit 236eb82c3a91960ba5db7b82efbe0f6a9fd7cf24[m
+Author: Lucas Daniel Velazquez M <19197331+Luxter77@users.noreply.github.com>
+Date:   Thu Nov 16 13:20:33 2023 -0300
+
+    Adds tqdm handler to logging_config.py for progress bar integration
+
+[33mcommit 472c22cc8a46b825545d5c86bd2745269430d7b0[m
+Author: AngelBottomless <aria1th@naver.com>
+Date:   Thu Nov 16 19:03:45 2023 +0900
+
+    fix ruff - add newline
+
+[33mcommit bcfaf3979a9f93e37c418b58c75b02d9570b4354[m
+Author: AngelBottomless <aria1th@naver.com>
+Date:   Thu Nov 16 18:43:16 2023 +0900
+
+    convert/add hypertile options
+
+[33mcommit eb667e715ad3eea981f6263c143ab0422e5340c9[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Wed Nov 15 18:28:48 2023 -0800
+
+    feat: LyCORIS/kohya OFT network support
+
+[33mcommit d6d0b22e6657fc84039e82ee735a57101bfe7c17[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Wed Nov 15 03:08:50 2023 -0800
+
+    fix: ignore calc_scale() for COFT which has very small alpha
+
+[33mcommit af45872fdb8a66ffd6a405d99120e0bacbb4a170[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Wed Nov 15 15:15:14 2023 +0900
+
+    copy LDM VAE key from XL
+
+[33mcommit b29fc6d4de8812b25c520a46676cda13c3fe64ca[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Sat Nov 11 23:43:13 2023 +0900
+
+    Implement Hypertile
+    
+    Co-Authored-By: Kieran Hunt <kph@hotmail.ca>
+
+[33mcommit a292d2c47f51fc71cc186709bdf3706f0944b7d6[m
+Author: AngelBottomless <aria1th@naver.com>
+Date:   Wed Nov 15 14:26:37 2023 +0900
+
+    hotfix: call shared.state.end() after postprocessing done
+
+[33mcommit c1c816006e47f3b7dcf1512594fd31817242e7fa[m
+Author: kaalibro <konstantin.adamovich@gmail.com>
+Date:   Mon Nov 13 22:01:52 2023 +0600
+
+    Adds 'Path' sorting for Extra network cards
+
+[33mcommit 94e966956666ba13b368aaf781628085e3d4f7e3[m
+Author: kaalibro <konstantin.adamovich@gmail.com>
+Date:   Mon Nov 13 14:51:06 2023 +0600
+
+    Fixes generation restart not working for some users when 'Ctrl+Enter' is pressed
+
+[33mcommit 8048f36072c8a281b8c8c79235df63a748ab7361[m
+Author: missionfloyd <missionfloyd@users.noreply.github.com>
+Date:   Sun Nov 12 17:12:50 2023 -0700
+
+    Lint
+
+[33mcommit f6762d2ad95e3de39fc900b3fd528310e512831f[m
+Author: Tom Haelbich <65122811+h43lb1t0@users.noreply.github.com>
+Date:   Sun Nov 12 14:14:16 2023 +0100
+
+    dir buttons start with / so only the correct dir will be shown and not dirs with a substrings as name from the dir
+
+[33mcommit 3bb32befe9523a6acefbab7fe099f91660f41ea9[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Sat Nov 11 11:58:19 2023 -0600
+
+    bug fix
+
+[33mcommit 48d6102b3105bb0179c8eab14ec7930945aca326[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Sat Nov 11 11:17:26 2023 -0600
+
+    fix
+
+[33mcommit 520e52f846892cc2b207b738b4180fa863c7b38f[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Sat Nov 11 10:58:26 2023 -0600
+
+    allow comma and whitespace as separator
+
+[33mcommit 7af576e745c79a9539e40bc158e695192ae79f25[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Sat Nov 11 10:46:47 2023 -0600
+
+    remove the assumption of same name
+
+[33mcommit 294f8a514f982248cda1cafda30d35566f3a0321[m
+Author: aria1th <35677394+aria1th@users.noreply.github.com>
+Date:   Sat Nov 11 23:28:12 2023 +0900
+
+    add hyperTile
+    
+    https://github.com/tfernd/HyperTile
+
+[33mcommit bc1a450124ab643fc0c3ea7630d875afb4b84b84[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Sat Nov 11 04:08:45 2023 -0600
+
+    reverse the extension load order so builtin extensions load earlier natively
+
+[33mcommit 0d1924c48be3d02650e87b12a4f53165a8b4a599[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Sat Nov 11 04:03:55 2023 -0600
+
+    populate loaded_extensions from extension list instead
+
+[33mcommit 0fc7dc1c04a046d95588651ffc4e71a7d40378d3[m
+Author: wfjsw <wfjsw@users.noreply.github.com>
+Date:   Sat Nov 11 04:01:13 2023 -0600
+
+    implementing script metadata and DAG sorting mechanism
+
+[33mcommit 3a4a6c43a4ca31056d5c09bb54e3eef24e6cf864[m
+Author: Emily Zeng <zhixuan.zeng@gmail.com>
+Date:   Fri Nov 10 16:06:01 2023 -0500
+
+    ExitStack as alternative to suppress
+
+[33mcommit 5432d9301359945b595d5e6649c7a64b4bb0bfca[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Sat Nov 11 03:38:55 2023 +0900
+
+    fix added accordion settings options
+
+[33mcommit 6a86b3ad9bc7bb9a58dc4228ecf93a3a511ed122[m
+Author: Alessandro de Oliveira Faria (A.K.A. CABELO) <cabelo@opensuse.org>
+Date:   Fri Nov 10 14:15:34 2023 -0300
+
+    Compatibility with Debian 11, Fedora 34+ and openSUSE 15.4+
+
+[33mcommit 7ff54005fee46ce188544db75c27de61ae279001[m
+Author: missionfloyd <missionfloyd@users.noreply.github.com>
+Date:   Thu Nov 9 23:47:53 2023 -0700
+
+    Enable prompt hotkeys in style editor
+
+[33mcommit 66767e3876dde8d0ef27ce00254cd6b75332f036[m
+Author: Alessandro de Oliveira Faria (A.K.A. CABELO) <cabelo@opensuse.org>
+Date:   Fri Nov 10 03:45:44 2023 -0300
+
+    - opensuse compatibility
+
+[33mcommit 6d77a6e1c6b27ae82b2186cfc36cc4ad2a5e9ecf[m
+Author: fuchen.ljl <yjqqqqdx_01@163.com>
+Date:   Fri Nov 10 14:40:39 2023 +0800
+
+    Update README.md
+    
+    Modify the stablediffusion dependency address
+
+[33mcommit 98fc525a2c3ebc548ba774e564d99bea2db2f191[m
+Author: fuchen.ljl <yjqqqqdx_01@163.com>
+Date:   Fri Nov 10 14:37:30 2023 +0800
+
+    Update README.md
+    
+    Modify the stablediffusion dependency address
+
+[33mcommit ff2952f10551aab2000002079d5f862af979e964[m
+Author: Emily Zeng <zhixuan.zeng@gmail.com>
+Date:   Thu Nov 9 13:35:52 2023 -0500
+
+    multiline with statement for readibility
+
+[33mcommit 9aa4d098f07655d99cd16e8e9c984d043dbf9006[m
+Author: Emily Zeng <zhixuan.zeng@gmail.com>
+Date:   Thu Nov 9 13:25:24 2023 -0500
+
+    removed changes that weren't merged properly
+
+[33mcommit a625a7bb817cbf6a97d2030dc3a8015a046bd388[m
+Author: Emily Zeng <zhixuan.zeng@gmail.com>
+Date:   Thu Nov 9 13:15:06 2023 -0500
+
+    moved nested with to single line to remove extra tabs
+
+[33mcommit f9c14a8c8c8b682c2a7f7a11306b26e2a28ebeec[m
+Merge: 75951531 5e80d9ee
+Author: ezxzeng <zhixuan.zeng@gmail.com>
+Date:   Tue Nov 7 15:25:27 2023 -0500
+
+    Merge branch 'dev' into ui_mobile_optimizations
+
+[33mcommit 5e80d9ee99c5899e5e2b130408ffb65a0585a62a[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Tue Nov 7 11:33:16 2023 +0300
+
+    fix pix2pix producing bad results
+
+[33mcommit 47bccbebaeeda87fdf2df752f59bdb9e54a3dddf[m
+Merge: 9c1c0da0 9ba991ca
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Tue Nov 7 08:29:06 2023 +0300
+
+    Merge pull request #13884 from GerryDE/notification-sound-volume
+    
+    Add option to set notification sound volume
+
+[33mcommit 9ba991cad8a15a99f71f5b2ec5feff7dd9d270d7[m
+Author: GerryDE <gerritfresen4@gmail.com>
+Date:   Tue Nov 7 03:09:08 2023 +0100
+
+    Add option to set notification sound volume
+
+[33mcommit 9c1c0da026cb7ef091a0f3fa24b14ae8634f6de5[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Nov 6 11:17:36 2023 +0300
+
+    fix exception related to the pix2pix
+
+[33mcommit 656437e0a50212778746c67785d23b0ea14a8837[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Mon Nov 6 10:32:21 2023 +0300
+
+    fix img2img_tabs error
+
+[33mcommit 6ad666e4794a57dd65790dd6a259d5d4330d45ed[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 19:46:20 2023 +0300
+
+    more changes for #13865: fix formatting, rename the function, add comment and add a readme entry
+
+[33mcommit 80d639a440929e9effe4620ce74333de283e7efc[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 19:32:21 2023 +0300
+
+    linter
+
+[33mcommit 96ee3eff6c8e6868e43fa57e1679603e89b89b1d[m
+Merge: c3699d4f ff805d8d
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 19:31:44 2023 +0300
+
+    Merge pull request #13865 from Gothos/master
+    
+    Add support for SSD-1B
+
+[33mcommit ff805d8d0eb8e3de42f04747de0d1c7354491810[m
+Merge: 44c50973 c3699d4f
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 19:30:57 2023 +0300
+
+    Merge branch 'dev' into master
+
+[33mcommit c3699d4fd185d5a7285c5519f9bb4b6fec236d9f[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 19:23:48 2023 +0300
+
+    compact prompt option disabled by default
+
+[33mcommit 4d4a9e733219f8c065a4ab6c5ab42836db7330fe[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 19:19:55 2023 +0300
+
+    added compact prompt option
+
+[33mcommit 44c5097375ae4cf40300c09473bb46cf6c5d6cb7[m
+Author: Ritesh Gangnani <riteshgangnani10>
+Date:   Sun Nov 5 20:31:57 2023 +0530
+
+    Use devices.torch_gc() instead of empty_cache()
+
+[33mcommit 44db35fb1ad5d07837e890a0fd3c00addfb0402c[m
+Author: Ritesh Gangnani <riteshgangnani10>
+Date:   Sun Nov 5 19:15:38 2023 +0530
+
+    Added memory clearance after deletion
+
+[33mcommit ff1609f91ea0e9a90ba7b6ecc6d794c39c1f8c8f[m
+Author: Ritesh Gangnani <riteshgangnani10>
+Date:   Sun Nov 5 19:13:49 2023 +0530
+
+    Add SSD-1B as a supported model
+
+[33mcommit d9499f4301018ebd2977685d098381aa4111d2ae[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 10:12:50 2023 +0300
+
+    properly apply sort order for extra network cards when selected from dropdown
+    allow selection of default sort order in settings
+    remove 'Default' sort order, replace with 'Name'
+
+[33mcommit 16ab17429016a1154b9aa83244cdbfc7ba463d72[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 09:20:05 2023 +0300
+
+    eslint
+
+[33mcommit 046c7b053a6f458be3b587626b82094652142afe[m
+Merge: 6b8c661c 2b06cefe
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 08:57:59 2023 +0300
+
+    Merge pull request #13855 from gibiee/patch-1
+    
+    Corrected a typo in `modules/cmd_args.py`
+
+[33mcommit 6b8c661c49796bba093ca8a8301e81d28afb9832[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Nov 5 08:55:54 2023 +0300
+
+    add a visible checkbox to input accordion
+
+[33mcommit 2b06cefe66684ed2648d3221efbc36aeaae99a2f[m
+Author: gibiee <37574274+gibiee@users.noreply.github.com>
+Date:   Sun Nov 5 11:37:23 2023 +0900
+
+    correct a typo
+    
+    modify "defaul" to "default"
+
+[33mcommit 7edd50f304ebf8a713839035d4e9eacaa98d3762[m
+Merge: 1dd25be0 bbf00a96
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sat Nov 4 15:06:04 2023 -0700
+
+    Merge pull request #2 from v0xie/network-oft-change-impl
+    
+    Use same updown implementation for LyCORIS OFT as kohya-ss OFT
+
+[33mcommit bbf00a96afb2215f13cc72a7908225ae300c423d[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sat Nov 4 14:56:47 2023 -0700
+
+    refactor: remove unused function
+
+[33mcommit 329c8bacce706811776e1c1c6a0d39b46886a268[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sat Nov 4 14:54:36 2023 -0700
+
+    refactor: use same updown for both kohya OFT and LyCORIS diag-oft
+
+[33mcommit 1dd25be0377145d9557ca504eb1289dac6e0f5c0[m
+Merge: 6523edb8 f6c8201e
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Fri Nov 3 19:47:27 2023 -0700
+
+    Merge pull request #1 from v0xie/oft-faster
+    
+    Support LyCORIS diag-oft OFT implementation (minus MultiheadAttention layer), maintains support for kohya-ss OFT
+
+[33mcommit f6c8201e5663ca2182a66c8eca63ce4801d52849[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Fri Nov 3 19:35:15 2023 -0700
+
+    refactor: move factorization to lyco_helpers, separate calc_updown for kohya and kb
+
+[33mcommit fe1967a4c4a02eccfa45b65ee19a5b0773ced31c[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Fri Nov 3 17:52:55 2023 -0700
+
+    skip multihead attn for now
+
+[33mcommit 452ab8fe724cc264a926c966e902727e743b2268[m
+Merge: 399baa54 236dd55d
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Fri Nov 3 20:19:58 2023 +0300
+
+    Merge pull request #13718 from avantcontra/bugfix_gfpgan_custom_path
+    
+    fix bug when using --gfpgan-models-path
+
+[33mcommit 399baa54c27f29f5d3e4967d552930dec38f78e5[m
+Merge: 21d56188 dfc4c27b
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Fri Nov 3 20:19:04 2023 +0300
+
+    Merge pull request #13733 from dben/patch-1
+    
+    Update prompts_from_file script to allow concatenating entries with the general prompt.
+
+[33mcommit 21d561885ec9c89f30e7693aff88acccff2b0093[m
+Merge: 73c74baa 5121846d
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Fri Nov 3 20:16:58 2023 +0300
+
+    Merge pull request #13762 from wkpark/nextjob
+    
+    call state.jobnext() before postproces*()
+
+[33mcommit 73c74baa6a8ce4973794a4b6cf5ffc780bca8e8e[m
+Merge: 1f373a2b fbc5c531
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Fri Nov 3 20:11:54 2023 +0300
+
+    Merge pull request #13797 from Meerkov/master
+    
+    Fix #13796
+
+[33mcommit 1f373a2baa94a6731be9df1a665f981a0b31907a[m
+Merge: 4c423f6d 8052a497
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Fri Nov 3 19:59:01 2023 +0300
+
+    Merge pull request #13829 from AUTOMATIC1111/paren-fix
+    
+    Fix parenthesis auto selection
+
+[33mcommit 4afaaf8a020c1df457bcf7250cb1c7f609699fa7[m[33m ([m[1;33mtag: v1.6.1[m[33m)[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Fri Nov 3 19:50:14 2023 +0300
+
+    add changelog entry
+
+[33mcommit bda2ecdbf58fd33b4ad3036ed5cc13eef02747ae[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Fri Nov 3 19:44:57 2023 +0300
+
+    Merge pull request #13839 from AUTOMATIC1111/httpx==0.24.1
+    
+    requirements_versions httpx==0.24.1
+
+[33mcommit 4c423f6d37e312f31dcd3deffb7945921a7cb80c[m
+Merge: 464fbcd9 cc80a09d
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Fri Nov 3 19:44:57 2023 +0300
+
+    Merge pull request #13839 from AUTOMATIC1111/httpx==0.24.1
+    
+    requirements_versions httpx==0.24.1
+
+[33mcommit cc80a09d82afae793800a033a1f525f5dc797cff[m
+Author: w-e-w <40751091+w-e-w@users.noreply.github.com>
+Date:   Sat Nov 4 00:50:30 2023 +0900
+
+    Update requirements_versions.txt
+
+[33mcommit 8052a4971e1be48e1df2535284a7791cd1ad39ae[m
+Author: missionfloyd <missionfloyd@users.noreply.github.com>
+Date:   Fri Nov 3 00:59:19 2023 -0600
+
+    Fix parenthesis auto selection
+    
+    Fixes #13813
+
+[33mcommit 759515316e8ec536f34fad616e8c6a33674a164b[m
+Author: Emily Zeng <zhixuan.zeng@gmail.com>
+Date:   Thu Nov 2 21:54:48 2023 -0400
+
+    added accordion settings options
+
+[33mcommit d727ddfccdc6d474767be9dc3bf504150e81a8a5[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Thu Nov 2 00:13:11 2023 -0700
+
+    no idea what i'm doing, trying to support both type of OFT, kblueleaf diag_oft has MultiheadAttn which kohya's doesn't?, attempt create new module based off network_lora.py, errors about tensor dim mismatch
+
+[33mcommit 65ccd6305fcf72347d5ed68f03095dced865ef6e[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Thu Nov 2 00:11:32 2023 -0700
+
+    detect diag_oft type
+
+[33mcommit a2fad6ee055f3f4e98e46b6c2d912776fe608214[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Wed Nov 1 22:34:27 2023 -0700
+
+    test implementation based on kohaku diag-oft implementation
+
+[33mcommit fbc5c531b9cfa949d60dae19420d01f8af186b55[m
+Author: Meerkov <GoMeerkov@gmail.com>
+Date:   Sun Oct 29 15:37:08 2023 -0700
+
+    Fix #13796
+    
+    Fix comment error that makes understanding scheduling more confusing.
+
+[33mcommit 5121846d34d74aee9b55d48d35c1559a710051b0[m
+Author: Won-Kyu Park <wkpark@gmail.com>
+Date:   Wed Oct 25 21:37:55 2023 +0900
+
+    call state.jobnext() before postproces*()
+
+[33mcommit dfc4c27b2402a35a1820ffa549e74bb79873aaaa[m
+Author: David Benson <dben@users.noreply.github.com>
+Date:   Mon Oct 23 08:26:40 2023 -0400
+
+    linting issue
+
+[33mcommit 88b2ef3b04c37ec068fdfea9ba2596645e981b46[m
+Author: David Benson <dben@users.noreply.github.com>
+Date:   Mon Oct 23 08:16:26 2023 -0400
+
+    Update prompts_from_file script to allow concatenating entries with the general prompt.
+
+[33mcommit 6523edb8a45d4e09f11f3b4e1d133afa6fb65e53[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sun Oct 22 09:31:15 2023 -0700
+
+    style: conform style
+
+[33mcommit 3b8515d2c9abad7f0ccaac0215803716e861ee0e[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sun Oct 22 09:27:48 2023 -0700
+
+    fix: multiplier applied twice in finalize_updown
+
+[33mcommit 4a50c9638c3eac860fb05ae603cd61aabf4cd1a9[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sun Oct 22 08:54:24 2023 -0700
+
+    refactor: remove used OFT functions
+
+[33mcommit de8ee92ed88b855098e273f576a27f4789f0693d[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sat Oct 21 17:37:17 2023 -0700
+
+    fix: use merge_weight to cache value
+
+[33mcommit 76f5abdbdb739133eff2ccefa36eac62bea3fa08[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sat Oct 21 16:07:45 2023 -0700
+
+    style: cleanup oft
+
+[33mcommit fce86ab7d75690785f0f5b496f1b3aee922c0ae3[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sat Oct 21 16:03:54 2023 -0700
+
+    fix: support multiplier, no forward pass hook
+
+[33mcommit 768354772853a1d27a9bf7e41bd6a6e4eac7a9c7[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sat Oct 21 14:42:24 2023 -0700
+
+    fix: return orig weights during updown, merge weights before forward
+
+[33mcommit 2d8c894b274d60a3e3563a2ace23c4ebcea9e652[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Sat Oct 21 13:43:31 2023 -0700
+
+    refactor: use forward hook instead of custom forward
+
+[33mcommit 236dd55dbe895ba72a64567482ee67ab680c5344[m
+Author: avantcontra <dadadaluo@gmail.com>
+Date:   Sun Oct 22 04:32:13 2023 +0800
+
+    fix Blank line contains whitespace
+
+[33mcommit 443ca983ade333721930ea2f18f80b45762e2aea[m
+Author: avantcontra <dadadaluo@gmail.com>
+Date:   Sun Oct 22 03:21:23 2023 +0800
+
+    fix bug when using --gfpgan-models-path
+
+[33mcommit 464fbcd92118bf00173b9982325fe6348201313e[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 21 09:09:32 2023 +0300
+
+    fix the situation with emphasis editing (aaaa:1.1) bbbb (cccc:1.1)
+
+[33mcommit 384fab9627942dc7a5771368180bab9cfe0c2877[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 21 08:45:51 2023 +0300
+
+    rework some of changes for emphasis editing keys, force conversion of old-style emphasis
+
+[33mcommit 0550659ce6e1c37d1ab05cb8a2cb31d499fa552f[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Thu Oct 19 13:13:02 2023 -0700
+
+    style: fix ambiguous variable name
+
+[33mcommit d10c4db57ed08234a7aed5f530f269ff78544ab0[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Thu Oct 19 12:52:14 2023 -0700
+
+    style: formatting
+
+[33mcommit 321680ccd0e0404223fbdf4f26498f7d0317fb75[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Thu Oct 19 12:41:17 2023 -0700
+
+    refactor: fix constraint, re-use get_weight
+
+[33mcommit eb01d7f0e0fb46285985803296a25715165fb3f9[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Wed Oct 18 04:56:53 2023 -0700
+
+    faster by calculating R in updown and using cached R in forward
+
+[33mcommit 853e21d98eada4db9a9fd1ae8eda90cf763e2818[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Wed Oct 18 04:27:44 2023 -0700
+
+    faster by using cached R in forward
+
+[33mcommit 1c6efdbba774d603c592debaccd6f5ad827bd1b2[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Wed Oct 18 04:16:01 2023 -0700
+
+    inference working but SLOW
+
+[33mcommit ec718f76b58b183859ed732e11ec748c41a13f76[m
+Author: v0xie <28695009+v0xie@users.noreply.github.com>
+Date:   Tue Oct 17 23:35:50 2023 -0700
+
+    wip incorrect OFT implementation
+
+[33mcommit 861cbd56363ffa0df3351cf1162f507425a178cd[m
+Merge: 2f6ea8b1 d33cb2b8
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Oct 15 14:19:48 2023 +0300
+
+    Merge pull request #13644 from XpucT/dev
+    
+    Start / Restart generation by Ctrl (Alt) + Enter
+
+[33mcommit d33cb2b8122f259002ce6ef2e7f5cf30dbe069b5[m
+Author: Khachatur Avanesian <jailbreakvideo@gmail.com>
+Date:   Sun Oct 15 11:01:45 2023 +0300
+
+    Add files via upload
+    
+    LF
+
+[33mcommit 3e223523ced2a19347d0b42b662129947152dc49[m
+Author: Khachatur Avanesian <jailbreakvideo@gmail.com>
+Date:   Sun Oct 15 10:48:50 2023 +0300
+
+    Update script.js
+
+[33mcommit d295e97a0d7ca985ab21e935fd933ce629fba2bf[m
+Author: Khachatur Avanesian <jailbreakvideo@gmail.com>
+Date:   Sun Oct 15 10:37:48 2023 +0300
+
+    Update script.js
+    
+    LF instead CRLF
+
+[33mcommit 77bd953da2f96845b196f242f7ba51138cd54e3b[m
+Author: Khachatur Avanesian <jailbreakvideo@gmail.com>
+Date:   Sun Oct 15 10:25:36 2023 +0300
+
+    Update script.js
+    
+    Exclude lambda
+
+[33mcommit 2f6ea8b10312e700f8d01f90dff15d17690ce49c[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Oct 15 10:12:38 2023 +0300
+
+    respect keyedit_precision_attention setting when converting from old (((attention))) syntax
+
+[33mcommit a3d9b011a3e97024788957bdc83a9c8ee3014bef[m
+Merge: 282903bb fff1a0c7
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Oct 15 10:08:52 2023 +0300
+
+    Merge pull request #13533 from missionfloyd/edit-attention-fix
+    
+    Edit-attention fixes
+
+[33mcommit 282903bb6798f49af66f6935ee4dc0015895cf7c[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Oct 15 09:41:02 2023 +0300
+
+    repair unload sd checkpoint button
+
+[33mcommit 0d65d0eabded4a79c3168ed14599db3970d414c5[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sun Oct 15 08:45:38 2023 +0300
+
+    add an option to not print stack traces on ctrl+c.
+
+[33mcommit f00eaa4d000856964f810aa4b651200861bafc6f[m
+Author: Khachatur Avanesian <jailbreakvideo@gmail.com>
+Date:   Sun Oct 15 02:34:03 2023 +0300
+
+    Start / Restart generation by Ctrl (Alt) + Enter
+    
+    Add ability to interrupt current generation and start generation again by Ctrl (Alt) + Enter
+
+[33mcommit d4255506ff41c382df68b926fd5d7e9e188d3dc2[m
+Merge: 4be7b620 117ec719
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 23:00:35 2023 +0300
+
+    Merge pull request #13638 from wkpark/user-settings-2
+    
+    webui.settings.bat support
+
+[33mcommit 117ec7199416b56a16cbc5591f13fe6cce521d9e[m
+Author: Won-Kyu Park <wkpark@gmail.com>
+Date:   Sat Oct 14 21:58:28 2023 +0900
+
+    support webui.settings.bat
+
+[33mcommit 4be7b620c2994a14c0ce879d3a6cea0db0f66a84[m
+Merge: 19f5795c a8cbe50c
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 12:18:55 2023 +0300
+
+    Merge pull request #13568 from AUTOMATIC1111/lora_emb_bundle
+    
+    Add lora-embedding bundle system
+
+[33mcommit a8cbe50c9fa324ed887089e4333452ecc4355c92[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 12:14:56 2023 +0300
+
+    remove duplicated code
+
+[33mcommit 19f5795c27f13c84a922bc69f559cc69e408b3e2[m
+Merge: 6fe16a9e f71e919e
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 08:37:45 2023 +0300
+
+    Merge pull request #13463 from FluttyProger/patch-1
+    
+    Ability for extensions to return custom data via api in response.images
+
+[33mcommit 6fe16a9e1a29ad952f6f7c603380f2e210495c39[m
+Merge: eadef355 35fd24e8
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 08:36:43 2023 +0300
+
+    Merge pull request #12991 from AUTOMATIC1111/but-report-template
+    
+    Update bug_report.yml
+
+[33mcommit eadef3551287cd423243b4208375d7683eb9e0d3[m
+Merge: 771dac9c 9821625a
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 08:34:41 2023 +0300
+
+    Merge pull request #13567 from LeonZhao28/bugfix_key_error_in_processing
+    
+    fix the key error exception when processing override_settings keys
+
+[33mcommit 771dac9c5f7704fb44e4bf2ec48213083a629f32[m
+Merge: 0619df98 dbb10fbd
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 08:21:53 2023 +0300
+
+    Merge pull request #13459 from wkpark/preview-fix
+    
+    show the preview image in the modalview if available
+
+[33mcommit 0619df9835833079f8ba5cb5a510b55c4433acaf[m
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 08:01:04 2023 +0300
+
+    use shallow copy for #13535
+
+[33mcommit 7cc96429f2f779b2e43804e0c987932cf4c0dd48[m
+Merge: 26500b8c 770ee23f
+Author: AUTOMATIC1111 <16777216c@gmail.com>
+Date:   Sat Oct 14 08:00:04 2023 +0300
+
+    Merge pull request #13535 from chu8129/dev
+    
+    fix: checkpoints_loaded:{checkpoint:state_dict}, model.load_state_dict issue in dict value e
